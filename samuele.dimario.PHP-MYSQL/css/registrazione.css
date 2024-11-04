@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #e6e6fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header e navigazione */
+header {
+    background-color: #0b3d91;
+    color: #fff;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar h1 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+/* Contenitore login */
+.register-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.register-container h1 {
+    color: #0b3d91;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.register-container p {
+    margin-bottom: 20px;
+    color: #666;
+    font-size: 1rem;
+}
+
+/* Input di testo */
+.register-container input[type="text"],
+.register-container input[type="email"],
+.register-container input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+}
+
+/* Pulsante di login */
+.register-container button {
+    background-color: #0b3d91;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-container button:hover {
+    background-color: #093078;
+}
+
+/* Link login */
+.register-container a {
+    color: #0b3d91;
+    text-decoration: none;
+    display: block;
+    margin-top: 15px;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.register-container a:hover {
+    color: #ffd700;
+}
+
+
