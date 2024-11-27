@@ -1,0 +1,120 @@
+/* Stile generale */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header e navigazione */
+header {
+    background-color: #0b3d91;
+    color: #fff;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar h1 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+/* Stile per la pagina profilo */
+.profilo-container {
+    max-width: 800px;
+    margin: 120px auto; /* Spazio sotto la barra di navigazione */
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profilo-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #0b3d91;
+    text-align: center;
+}
+
+.informazioni-personali,
+.informazioni-abbonamento {
+    margin-bottom: 30px;
+}
+
+.informazioni-personali h2,
+.informazioni-abbonamento h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+    border-bottom: 2px solid #ffd700;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.informazioni-personali p,
+.informazioni-abbonamento p {
+    font-size: 1.1rem;
+    margin: 8px 0;
+}
+
+.azioni {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.azioni .pulsante {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #0b3d91;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.azioni .pulsante:hover {
+    background-color: #ffd700;
+    color: #000;
+}
